@@ -1,4 +1,5 @@
-﻿Dictionary<int , string> daysOfWeek = new Dictionary<int , string>
+﻿// Собираем словарик
+Dictionary<int , string> daysOfWeek = new Dictionary<int , string>
 {
     { 1 , "Понедельник" },
     { 2 , "Вторник" },
@@ -8,6 +9,7 @@
     { 6 , "Суббота" },
     { 7 , "Воскресенье" }
 };
+// Делаю проверку на числа
 Console.WriteLine("Введите число : ");
 string? string1 = Console.ReadLine ();
 if (string1 !=null)
@@ -22,3 +24,4 @@ if (string1 !=null)
         Console.WriteLine(daysOfWeek[num] + " Выходной");
     }
 }
+// Ну собсна все готово , добавить нечего
