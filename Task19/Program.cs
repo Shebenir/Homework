@@ -1,26 +1,26 @@
-﻿// Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
-int ReadData(string msg)
-{
-    Console.WriteLine(msg);
-    return int.Parse(Console.ReadLine());
-}
-// Коменчу
-bool PalinTest(int num)
-{
-    bool res = false;
-    if((num /10000 == num%10) && ((num/1000))%10 == ((num/10)%10))
-    {
-        res = true;
-        Console.WriteLine("Это число - палиндром");
-    } else {
-        res = false;
-        Console.WriteLine("Это число не палиндром");
-    }
-    return res;
-}
+﻿// // Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
+// int ReadData(string msg)
+// {
+//     Console.WriteLine(msg);
+//     return int.Parse(Console.ReadLine());
+// }
+// // Коменчу
+// bool PalinTest(int num)
+// {
+//     bool res = false;
+//     if((num /10000 == num%10) && ((num/1000))%10 == ((num/10)%10))
+//     {
+//         res = true;
+//         Console.WriteLine("Это число - палиндром");
+//     } else {
+//         res = false;
+//         Console.WriteLine("Это число не палиндром");
+//     }
+//     return res;
+// }
 
-int N = ReadData ("Введите конечное число: ");
-bool valid = PalinTest(N);
+// int N = ReadData ("Введите конечное число: ");
+// bool valid = PalinTest(N);
 
 // Со звездочкой
 int ReadData(string msg)
