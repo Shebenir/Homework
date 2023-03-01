@@ -3,7 +3,7 @@ void FillArrayRandomNumbers(int[] numbers)
 {
     for(int x = 0; x < numbers.Length; x++)
     {
-        numbers[i] = new Random().Next(100,1000);
+        numbers[x] = new Random().Next(100,1000);
     }
 }
 void PrintArray(int[] numbers)
